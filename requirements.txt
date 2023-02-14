@@ -8,7 +8,9 @@ cycler==0.11.0
 debugpy==1.6.6
 decorator==5.1.1
 executing==1.2.0
+filelock==3.9.0
 fonttools==4.38.0
+idna==3.4
 ipykernel==6.21.2
 ipython==8.10.0
 jedi==0.18.2
@@ -48,4 +50,6 @@ threadpoolctl==3.1.0
 tornado==6.2
 tqdm==4.64.1
 traitlets==5.9.0
+uritools==4.0.1
+urlextract==1.8.0
 wcwidth==0.2.6
