@@ -25,9 +25,9 @@ source ./venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-- Run main.py file.
+- Run main.py file to setup Everything.
 ```
-python main.py file to setup Everything.
+python main.py
 ```
 **Warning** - This File May Take 30mins to Run Based on Your Hardware.
 - Now You Are Ready for Running and Developing This Projet on Your Local Machine.
