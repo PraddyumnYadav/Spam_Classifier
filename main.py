@@ -3,6 +3,7 @@ import os
 import re
 import nltk
 import email
+import joblib
 import tarfile
 import urlextract
 import urllib.request
@@ -218,3 +219,8 @@ y_pred = log_clf.predict(X_test_transformed)
 print(f"Cross Validation Score = {score.mean()*100}%")
 print(f"Precision: {100 * precision_score(y_test, y_pred)}%")
 print(f"Recall: {100 * recall_score(y_test, y_pred)}%")
+
+
+# Save Our Model with joblib
+joblib.dump(log_clf, "Spam_Classifier.pkl")
+Spam_Classifier_Model_Loaded = joblib.load("Spam_Classifier.pkl")
