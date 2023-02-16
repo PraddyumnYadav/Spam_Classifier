@@ -13,6 +13,8 @@ git clone https://github.com/PraddyumnYadav/Spam_Classifier.git
 - Create a Virtual Enviornment.
 ```
 pip install virtualenv
+```
+```
 virtualenv venv
 ```
 - Activate The Virtual Enviornment in Linux.
@@ -23,5 +25,10 @@ source ./venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-- Now You Are Ready for Running This Projet on Your Local Machine.
+- Run main.py file.
+```
+python main.py file to setup Everything.
+```
+**Warning** - This File May Take 30mins to Run Based on Your Hardware.
+- Now You Are Ready for Running and Developing This Projet on Your Local Machine.
 ## Thank You
